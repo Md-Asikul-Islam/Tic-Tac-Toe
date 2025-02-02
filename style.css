@@ -8,9 +8,9 @@ html {
   font-size: 62.5%; /* 1rem = 10px */
 }
 
-body{
+body {
   font-family: "Poppins", sans-serif;
-  background: #F8F8FF;
+  background: #f8f8ff;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -20,39 +20,54 @@ body{
 }
 
 .container {
-    width: clamp(10rem, 95%, 50rem);
-    text-align: center;
-    background: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: 0rem 0.4rem 1rem rgba(0, 0, 0, 0.1);
+  width: clamp(10rem, 95%, 50rem);
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 0.4rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    margin-bottom: 1rem;
-    font-size: 2.4rem;
-    color: #333;
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+  color: #333;
 }
 
 /* Board Styles */
 .board {
-    display: grid;
-    grid-template-columns: repeat(3, 6rem);
-    grid-template-rows: repeat(3, 6rem);
-    gap: 0.5rem;
-    margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 6rem);
+  grid-template-rows: repeat(3, 6rem);
+  gap: 0.5rem;
+  margin: 1rem auto;
 }
 
 .sqaure {
-    width: 6rem;
-    height: 6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: #fff;
-    border: 0.2rem solid #333;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #fff;
+  border: 0.2rem solid #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.sqaure:hover {
+  background-color: #e0e0e0;
+}
+
+/* Message Content */
+.message-content {
+  margin-top: 1rem;
+}
+
+.message {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 1rem;
 }
