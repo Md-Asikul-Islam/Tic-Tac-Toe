@@ -39,6 +39,8 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 6rem);
   grid-template-rows: repeat(3, 6rem);
+  place-content: center;
+  align-content: center;
   gap: 0.5rem;
   margin: 1rem auto;
 }
