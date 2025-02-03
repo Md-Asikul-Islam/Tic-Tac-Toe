@@ -43,7 +43,7 @@ h1 {
   margin: 1rem auto;
 }
 
-.sqaure {
+.square {
   width: 6rem;
   height: 6rem;
   display: flex;
@@ -57,7 +57,7 @@ h1 {
   transition: background-color 0.3s ease-in-out;
 }
 
-.sqaure:hover {
+.square:hover {
   background-color: #e0e0e0;
 }
 
